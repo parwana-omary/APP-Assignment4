@@ -35,7 +35,7 @@ nav a {
     margin-top: 0;
 }
 a:hover{
-    color:rgb(250, 245, 245);
+    color:#fff;
     background-color:#035214 ;
     border-radius: 10px;
     align-items: center;
