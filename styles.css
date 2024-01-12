@@ -1,0 +1,150 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #014410;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color:rgb(255, 255, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    justify-content: right;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: 0;
+    box-shadow: 0px 2px 5px #ccc;
+    z-index: 1;
+    top: 0;
+}
+nav a {
+    color: #01310f;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    width:80px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+a:hover{
+    color:#f5efef47;
+    background-color: rgb(3, 71, 3);
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 0;
+}
+.country-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 0;
+    width:800px;
+    background-color:white ;
+    height: auto;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+.row1{
+   
+    text-align: center;
+    display: flex;  
+    gap: 30px;
+}
+
+.country-detail{
+    background-color: white;
+    margin:15px;
+    padding: 20px;
+    width: 400px;
+   
+}
+.country-image{
+    margin: 20px 20px 20px 20px;
+    object-fit: cover;
+    width: 400px;
+}
+.head{
+    background-color:rgba(7, 156, 27, 0.5);
+    border: 3px solid #023008;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 200px;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+
+
+
+
+.row2{
+    display:flex;
+    margin-top: 50px;
+    gap:20px;
+    margin-left:20px;
+}
+.city{
+    display:block;
+    justify-content:center;
+    border:3px solid black;
+    color:white;
+    padding: 20px;
+    background-color: rgb(2, 80, 22);
+    width: 150px;
+    height: 200px;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+}
+.img{
+    object-fit: fill;
+    width: 110px;
+}
+.city-name{
+    background-color: rgba(250, 246, 246, 0.7);
+    height:40px;
+    margin-top:0;
+    color: #01310f;
+    padding-top:0;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.city:hover .city-name{
+    visibility: visible;
+}
+h1{
+    
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid green;
+    
+}
+footer{
+    background-color: white;
+    color: rgb(1, 51, 5);
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
