@@ -41,6 +41,7 @@ a:hover{
     align-items: center;
     padding-left: 25px;
     padding-right: 0;
+    text-align: center;
 }
 .city-container{
     margin-left: auto;
