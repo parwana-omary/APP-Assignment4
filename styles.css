@@ -37,6 +37,7 @@ nav a {
 }
 a:hover{
     color:#f5efef47;
+    text-align: center;
     background-color: rgb(3, 71, 3);
     border-radius: 10px;
     align-items: center;
